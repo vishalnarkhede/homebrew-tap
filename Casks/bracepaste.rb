@@ -15,7 +15,7 @@ cask "bracepaste" do
 
   caveats <<~EOS
     BracePaste is ad-hoc signed. If macOS blocks the first launch, either
-    right-click the app -> Open, or install with:
-      brew install --cask --no-quarantine vishalnarkhede/tap/bracepaste
+    right-click the app -> Open, or clear the quarantine flag:
+      xattr -dr com.apple.quarantine "#{appdir}/BracePaste.app"
   EOS
 end
