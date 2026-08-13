@@ -1,6 +1,6 @@
 cask "bracepaste" do
-  version "1.2.0"
-  sha256 "36fc9233a371132da4119eb98c8ae2095bec46fd190740d778128aff29490c62"
+  version "1.2.1"
+  sha256 "2d6a4e20c1468c939035792b79618eb1dfbb2ce50954607f9638b076b843de25"
 
   url "https://github.com/vishalnarkhede/BracePaste/releases/download/v#{version}/BracePaste-#{version}.dmg"
   name "BracePaste"
